@@ -11,11 +11,11 @@ class GradientContainer extends StatelessWidget {
 
   GradientContainer({
     this.child,
-    colors,
+    this.colors,
     this.align = const [Alignment.topLeft, Alignment.bottomRight],
     this.width,
     this.height,
-  }) : colors = colors ?? F.palette.secondaryThemeBackground;
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class GradientContainer extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: colors,
+            colors: colors ?? F.palette.secondaryThemeBackground,
           ),
         ),
       ),

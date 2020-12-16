@@ -56,8 +56,8 @@ class TopLogo extends StatelessWidget {
       child: NavItem(
         icon: Center(
           child: Container(
-            height: 40,
-            width: 40,
+            height: 30,
+            width: 30,
             child: F.logo,
           ),
         ),

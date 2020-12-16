@@ -16,6 +16,7 @@ class OutlineIconButton extends StatelessWidget {
       onPressed: onPress,
       splashColor: accentColor,
       borderSide: BorderSide(color: accentColor),
+      highlightedBorderColor: F.palette.secondaryThemeForeground.last,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(100)),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
