@@ -57,7 +57,7 @@ class TopLogo extends StatelessWidget {
           child: Container(
             height: 40,
             width: 40,
-            child: Image.asset('assets/logo_medicare.png'),
+            child: F.logo,
           ),
         ),
         text: AccentuatedText(
