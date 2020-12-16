@@ -5,6 +5,7 @@ import '../accentuated_text.dart';
 import 'nav_list.dart';
 import 'nav_item.dart';
 
+/// drawer displayed when clicking the menu button
 class NavDrawer extends StatelessWidget {
   final Widget logo;
   final String title;
